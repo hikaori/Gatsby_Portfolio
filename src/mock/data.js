@@ -10,17 +10,18 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Kaori Hirata',
+  subtitle: 'Front-end Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`,
+  paragraphTwo: 'bbbbbbbbb',
+  paragraphThree: 'cccccc',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,8 +29,18 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project1.jpg',
+    title: 'Nanny from Japan',
+    info: 'Nanny from Japan is a matching application between nanny and family',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    techs: ['react', 'gant'],
+  },
+  {
+    id: nanoid(),
+    img: 'project2.jpg',
+    title: 'COS',
     info: '',
     info2: '',
     url: '',
@@ -37,17 +48,8 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project3.jpg',
+    title: 'Fandine',
     info: '',
     info2: '',
     url: '',

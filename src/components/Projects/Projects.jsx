@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, techs } = project;
 
             return (
               <Row key={id}>
@@ -69,6 +69,12 @@ const Projects = () => {
                         </a>
                       )}
                     </div>
+                    <>
+                      {console.log(techs)}
+                      {console.log(typeof techs)}
+                      <p>{techs}</p>
+                      <p>{techs}</p>
+                    </>
                   </Fade>
                 </Col>
                 <Col lg={8} sm={12}>
