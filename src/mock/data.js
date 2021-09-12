@@ -18,11 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Kaori is a Vancouver based Frontend developer with over 5 years of experience in Canada and Japan.`,
+  paragraphOne: `Kaori is a Vancouver-based Front-end developer with over 5 years of experience in Canada and Japan.`,
   paragraphTwo:
-    'Highly experienced in Web application with React, Typescript.I am naturally curious, and perpetually working on improving my developer skills',
+    'Highly experienced in Web application with React, Typescript. I am naturally curious, and perpetually working on improving my developer skills',
   paragraphThree:
-    "Personality, an outside activity lover who like comping, hiking and snowboarding. let's collaborate together to create amazing works!",
+    "Personality, an outside activity lover who likes camping, hiking, and snowboarding. let's collaborate to create amazing works!",
   resume: '', // if no resume, the button will not show up
 };
 
@@ -42,7 +42,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.jpg',
     title: 'COS',
-    info: 'COS is a professional consultant company that supports students who want to study abroad and professionals who start their career in Canada.',
+    info: 'COS is a professional consultant company that supports students who want to study abroad and professionals who start their careers in Canada.',
     info2: '',
     url: 'https://cosvancouver.com/',
     repo: '', // if no repo, the button will not show up
