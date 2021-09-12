@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import TechLabel from './TechLabel';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -26,10 +27,9 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Works" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id, techs } = project;
-
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
@@ -68,13 +68,8 @@ const Projects = () => {
                           Source Code
                         </a>
                       )}
+                      {techs && <TechLabel techs={techs} />}
                     </div>
-                    <>
-                      {console.log(techs)}
-                      {console.log(typeof techs)}
-                      <p>{techs}</p>
-                      <p>{techs}</p>
-                    </>
                   </Fade>
                 </Col>
                 <Col lg={8} sm={12}>
