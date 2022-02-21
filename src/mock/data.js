@@ -58,6 +58,16 @@ export const projectsData = [
     repo: '', // if no repo, the button will not show up
     techs: ['HTML', 'CSS', 'JavaScript'],
   },
+  {
+    id: nanoid(),
+    img: 'KH_E-Commerce.jpg',
+    title: 'KH_E-Commerce',
+    info: 'This is EC site which can add items into the cart, fill up shipping info in Checkout page finally allow user can purchase items.',
+    info2: '',
+    url: 'https://kh-e-commerce.netlify.app/',
+    repo: '', // if no repo, the button will not show up
+    techs: ['React', 'Stripe API', 'commerce API'],
+  },
 ];
 
 // CONTACT DATA

@@ -29,8 +29,8 @@ const About = () => {
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
-              <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename={img} />
+              <div className="about-wrapper__image keyframe3 animation">
+                <AboutImg alt="profile picture" filename={img} className="keyframe3 animation" />
               </div>
             </Fade>
           </Col>
