@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Kaori is a Vancouver-based Front-end developer with over 5 years of experience in Canada and Japan.`,
+  paragraphOne: `Kaori is a Vancouver-based Front-end developer with 10 years of experience in Canada and Japan.`,
   paragraphTwo:
     'Highly experienced in Web application with React, Typescript. I am naturally curious, and perpetually working on improving my developer skills',
   paragraphThree:
